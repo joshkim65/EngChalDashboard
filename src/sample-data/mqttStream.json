@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": 1732038000000,
+    "temperature_C": { "mean": 29.8 },
+    "pH": { "mean": 4.9 },
+    "rpm": { "mean": 990 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038030000,
+    "temperature_C": { "mean": 30.1 },
+    "pH": { "mean": 5.0 },
+    "rpm": { "mean": 995 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038060000,
+    "temperature_C": { "mean": 30.3 },
+    "pH": { "mean": 5.1 },
+    "rpm": { "mean": 1002 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038090000,
+    "temperature_C": { "mean": 30.0 },
+    "pH": { "mean": 5.0 },
+    "rpm": { "mean": 1005 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038120000,
+    "temperature_C": { "mean": 30.4 },
+    "pH": { "mean": 5.2 },
+    "rpm": { "mean": 1008 },
+    "faults": 0,
+    "anomaly": {
+      "type": "temp_high",
+      "message": "Temperature exceeded target (30.4°C)",
+      "severity": "warning"
+    }
+  },
+  {
+    "timestamp": 1732038150000,
+    "temperature_C": { "mean": 29.7 },
+    "pH": { "mean": 4.8 },
+    "rpm": { "mean": 980 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038180000,
+    "temperature_C": { "mean": 31.0 },
+    "pH": { "mean": 5.4 },
+    "rpm": { "mean": 1020 },
+    "faults": 1,
+    "anomaly": {
+      "type": "multi_fault",
+      "message": "Concurrent temp/pH deviation detected",
+      "severity": "critical"
+    }
+  },
+  {
+    "timestamp": 1732038210000,
+    "temperature_C": { "mean": 30.2 },
+    "pH": { "mean": 5.1 },
+    "rpm": { "mean": 999 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038240000,
+    "temperature_C": { "mean": 30.6 },
+    "pH": { "mean": 5.3 },
+    "rpm": { "mean": 1015 },
+    "faults": 1,
+    "anomaly": {
+      "type": "rpm_high",
+      "message": "RPM exceeded limit (1015)",
+      "severity": "warning"
+    }
+  },
+  {
+    "timestamp": 1732038270000,
+    "temperature_C": { "mean": 30.0 },
+    "pH": { "mean": 5.0 },
+    "rpm": { "mean": 1000 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038300000,
+    "temperature_C": { "mean": 29.9 },
+    "pH": { "mean": 4.9 },
+    "rpm": { "mean": 995 },
+    "faults": 0
+  },
+  {
+    "timestamp": 1732038330000,
+    "temperature_C": { "mean": 30.5 },
+    "pH": { "mean": 5.2 },
+    "rpm": { "mean": 1012 },
+    "faults": 1,
+    "anomaly": {
+      "type": "temp_high",
+      "message": "Temperature spike detected",
+      "severity": "warning"
+    }
+  }
+]

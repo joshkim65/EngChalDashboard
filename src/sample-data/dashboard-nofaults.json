@@ -1,0 +1,31 @@
+{
+  "stream": "nofaults",
+  "current": {
+    "timestamp": 1732038234000,
+    "temp": 36.5,
+    "pH": 7.1,
+    "rpm": 400
+  },
+  "history": [
+    { "timestamp": 1732038110000, "temp": 36.2, "pH": 7.05, "rpm": 392, "isAnomaly": false },
+    { "timestamp": 1732038140000, "temp": 36.3, "pH": 7.06, "rpm": 395, "isAnomaly": false },
+    { "timestamp": 1732038170000, "temp": 36.4, "pH": 7.08, "rpm": 397, "isAnomaly": false },
+    { "timestamp": 1732038200000, "temp": 36.4, "pH": 7.10, "rpm": 395, "isAnomaly": false },
+    { "timestamp": 1732038234000, "temp": 36.5, "pH": 7.10, "rpm": 400, "isAnomaly": false }
+  ],
+  "confusion": { "TP": 10, "TN": 500, "FP": 3, "FN": 2 },
+  "events": [
+    {
+      "timestamp": 1732038234000,
+      "stream": "single_fault",
+      "label": "fault_1",
+      "detail": "High temperature anomaly (z = 3.4)"
+    },
+    {
+      "timestamp": 1732038180000,
+      "stream": "single_fault",
+      "label": "fault_1",
+      "detail": "Temperature spike detected"
+    }
+  ]
+}
